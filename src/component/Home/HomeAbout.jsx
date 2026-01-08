@@ -1,13 +1,14 @@
 import React from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import about from "../../assets/about.png"
 AOS.init();
 const HomeAbout = () => {
   return (
     <div className="container mx-auto py-12 "  data-aos="fade-up">
       <div className="flex flex-col md:flex-row gap-x-4 items-center">
         <div className="w-full md:w-1/2 p-4">
-          <img
+          <img src= {about}
             alt="About"
             className="w-full h-auto rounded-lg"
             style={{ width: "580px", height: "370px" }}
