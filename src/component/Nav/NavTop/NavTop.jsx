@@ -12,8 +12,8 @@ const NavTop = () => {
           <ul className="flex flex-col sm:flex-row items-center sm:space-x-4">
             <li className="flex items-center text-zinc-950 hover:text-white transition ease-in-out duration-300">
               <FontAwesomeIcon icon={faEnvelope} className="px-2" />
-              <a href="mailto:enjoyholidays.co.in" className="">
-                enjoyholidays.co.in
+              <a href="mailto:info@enjoyholidays.co.in" className="">
+                info@enjoyholidays.co.in
               </a>
             </li>
             <li className="flex items-center mt-2 sm:mt-0 cursor-pointer text-zinc-950 hover:text-white transition ease-in-out duration-300">

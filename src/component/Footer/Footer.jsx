@@ -75,23 +75,7 @@ const Footer = () => {
                   </ul>
                 </div>
                 <br />
-                <div className="address-list mt-2">
-                  <ul className="text-left">
-                    <li className="flex items-center -my-4 ">
-                      <FontAwesomeIcon
-                        icon={faEnvelopeOpen}
-                        className="text-amber-400 
-                   text-xl p-4"
-                      />
-                      <a
-                        href="mailto:enjoyholidays.co.in"
-                        className="text-white"
-                      >
-                        enjoyholidays.co.in
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                
               </div>
             </div>
             {/* Column */}
@@ -194,7 +178,7 @@ const Footer = () => {
                       className="text-amber-400 text-xl px-4"
                     />{" "}
                     <a href="mailto:enjoyholidays.co.in" className="text-white">
-                      enjoyholidays.co.in
+                      info@enjoyholidays.co.in
                     </a>
                     {/* <a
                       href="privacy-policy.html"

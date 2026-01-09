@@ -66,7 +66,7 @@ const Contact = () => {
                 icon={faEnvelope}
                 className="mr-2 text-orange-500"
               />
-              <span>Email: enjoyholidays.co.in</span>
+              <span>Email: info@enjoyholidays.co.in</span>
             </p>
           </div>
         </div>
