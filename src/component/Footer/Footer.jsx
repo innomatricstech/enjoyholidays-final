@@ -177,7 +177,7 @@ const Footer = () => {
                       icon={faFileArchive}
                       className="text-amber-400 text-xl px-4"
                     />{" "}
-                    <a href="mailto:enjoyholidays.co.in" className="text-white">
+                    <a href="mailto:info@enjoyholidays.co.in" className="text-white">
                       info@enjoyholidays.co.in
                     </a>
                     {/* <a
