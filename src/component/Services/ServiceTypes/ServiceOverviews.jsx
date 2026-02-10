@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import data from "./data"; // Importing the local data file
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import indus1 from "../../../assets/logo-removebg-preview.png"
-import { faArrowAltCircleLeft } from "@fortawesome/free-solid-svg-icons";
+ ;
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons/faArrowRight";
 const ServiceOverviews = () => {
   const [hoveredItem, setHoveredItem] = useState(null);

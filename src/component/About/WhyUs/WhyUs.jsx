@@ -1,5 +1,4 @@
-import { faFaceSmile, faSmile } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+ 
 import React from 'react';
 import { FaRegEnvelopeOpen, FaRegStar } from 'react-icons/fa';
 import { FaRegFaceSmile, FaRegLightbulb } from 'react-icons/fa6';
