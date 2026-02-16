@@ -8,8 +8,7 @@ import HomeCount from "./HomeCount/HomeCount";
 import HomeTourPackages from "./HomeTourPackages/HomeTourPackages";
 import WhyUs from "../About/WhyUs/WhyUs";
 
-// ❗ HomeLast import REMOVE பண்ணியிருக்கோம் (unused warning avoid)
-
+ 
 const Home = () => {
   return (
     <div>

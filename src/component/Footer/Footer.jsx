@@ -1,7 +1,6 @@
 import {
   faFacebook,
   faInstagram,
-  faTwitter,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -30,6 +29,7 @@ const Footer = () => {
             {/* LEFT COLUMN */}
             <div className="w-full sm:w-1/3 mb-8 sm:mb-0 text-left">
               <div className="-my-12 text-white">
+
                 <img
                   src={footerLogo}
                   alt="Footer Logo"
@@ -39,23 +39,58 @@ const Footer = () => {
                 <p>
                   Established in 1992, Enjoy Holidays boasts over four decades
                   of expertise in delivering unparalleled travel experiences and
-                  exceptional customer service. As pioneers in the travel
-                  sector, we continuously evolve to meet the diverse needs of
-                  our clients.
+                  exceptional customer service.
                 </p>
 
+                {/* SOCIAL ICONS */}
                 <div className="social-icons mt-4">
-                  <ul className="flex space-x-3">
-                    {[faFacebook, faInstagram, faTwitter, faWhatsapp].map((icon, i) => (
-                      <li key={i}>
+                  <ul className="flex space-x-4">
+
+                    {/* Facebook */}
+                    <li>
+                      <a
+                        href="https://www.facebook.com/share/1AgJFuA9Jd/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <FontAwesomeIcon
-                          icon={icon}
+                          icon={faFacebook}
                           className="text-white text-3xl hover:text-amber-400 transition duration-300"
                         />
-                      </li>
-                    ))}
+                      </a>
+                    </li>
+
+                    {/* Instagram */}
+                    <li>
+                      <a
+                        href="https://www.instagram.com/enjoyy_holidays?utm_source=qr&igsh=MWRxcTU0NGl1OXZvdg=="
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faInstagram}
+                          className="text-white text-3xl hover:text-amber-400 transition duration-300"
+                        />
+                      </a>
+                    </li>
+
+                    {/* WhatsApp */}
+                    <li>
+                      <a
+                        href="https://wa.me/916366700432"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FontAwesomeIcon
+                          icon={faWhatsapp}
+                          className="text-white text-3xl hover:text-amber-400 transition duration-300"
+                        />
+                      </a>
+                    </li>
+
                   </ul>
                 </div>
+
               </div>
             </div>
 
@@ -77,7 +112,7 @@ const Footer = () => {
                     <li key={i} className="relative">
                       <Link
                         to={item.to}
-                        className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300"
+                        className="block mb-2 hover:text-amber-400 transition"
                       >
                         {item.label}
                       </Link>

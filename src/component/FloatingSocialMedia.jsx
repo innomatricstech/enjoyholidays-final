@@ -16,7 +16,7 @@ const FloatingSocialMedia = () => {
 
       {/* Facebook */}
       <a
-        href="https://facebook.com/"
+        href="https://www.facebook.com/share/1AgJFuA9Jd/"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Visit Facebook"
@@ -27,7 +27,7 @@ const FloatingSocialMedia = () => {
 
       {/* Instagram */}
       <a
-        href="https://instagram.com/"
+        href="https://www.instagram.com/enjoyy_holidays?utm_source=qr&igsh=MWRxcTU0NGl1OXZvdg=="
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Visit Instagram"
